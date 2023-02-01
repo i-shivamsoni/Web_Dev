@@ -1,19 +1,24 @@
 <!DOCTYPE html>
-
+<!-- the above line specifies the document is a html document -->
 <html lang="en">
+  <!-- the above tags specifies the the page is in english its good for seo's -->
   <head>
     <meta charset="UTF-8">
     <title>CatPhotoApp</title>
   </head>
+  <!-- head tag contains metadat for the website like title of the website -->
   <body>
+    <!-- the body tag contains main body of the website -->
     <main>
+      <!-- specifies the main content of a document -->
       <h1>CatPhotoApp</h1>
+      <!-- h1 to h6 can be used size the heading and h1 should be used only once -->
       <section>
         <h2>Cat Photos</h2>
-        <!-- TODO: Add link to cat photos -->
         <p>See more <a target="_blank" href="https://freecatphotoapp.com">cat photos</a> in our gallery.</p>
         <a href="https://freecatphotoapp.com"><img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg" alt="A cute orange cat lying on its back."></a>
       </section>
+      <!-- defines the section of documents such as chapters, headers, footers or any other sections -->
       <section>
         <h2>Cat Lists</h2>
         <h3>Things cats love:</h3>
@@ -22,16 +27,20 @@
           <li>laser pointers</li>
           <li>lasagna</li>
         </ul>
+        <!-- ul stands for unordered list and li stand for list item -->
         <figure>
           <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/lasagna.jpg" alt="A slice of lasagna on a plate.">
           <figcaption>Cats <em>love</em> lasagna.</figcaption>  
         </figure>
+        <!-- specifies self-contained content, like illustrations, diagrams, photos, code listings, etc. 
+        We can add img src and caption here in this tag -->
         <h3>Top 3 things cats hate:</h3>
         <ol>
           <li>flea treatment</li>
           <li>thunder</li>
           <li>other cats</li>
         </ol>
+        <!-- ol stands for ordered list and li stand for list item -->
         <figure>
           <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/cats.jpg" alt="Five cats looking around a field.">
           <figcaption>Cats <strong>hate</strong> other cats.</figcaption>  
@@ -40,19 +49,27 @@
       <section>
         <h2>Cat Form</h2>
         <form action="https://freecatphotoapp.com/submit-cat-photo">
+          <!-- form element is used for creating a form, form action attribute sends the data to the specified link -->
           <fieldset>
-            <legend>Is your cat an indoor or outdoor cat?</legend>
+            <legend>Is your cat an indoor or outdoor cat?</legend> 
+            <!-- to define the title for the child contents -->
             <label><input id="indoor" type="radio" name="indoor-outdoor" value="indoor" checked> Indoor</label>
             <label><input id="outdoor" type="radio" name="indoor-outdoor" value="outdoor"> Outdoor</label>
+              <!-- label tag can be used contain input tag with its value and value attribute sends the value of the element -->
           </fieldset>
+          <!-- used to group related elements in a form -->
           <fieldset>
             <legend>What's your cat's personality?</legend>
             <input id="loving" type="checkbox" name="personality" value="loving" checked> <label for="loving">Loving</label>
             <input id="lazy" type="checkbox" name="personality" value="lazy"> <label for="lazy">Lazy</label>
             <input id="energetic" type="checkbox" name="personality" value="energetic"> <label for="energetic">Energetic</label>
+            <!-- we can use for attribute to represent label tag in other way using id of the element -->
           </fieldset>
           <input type="text" name="catphotourl" placeholder="cat photo URL" required>
+          <!-- for setting anything as required we can use required attribute -->
+          <!-- input element can be used for inputting different input type like text, radio buttons, checkboxs -->
           <button type="submit">Submit</button>
+          
         </form>
       </section>
     </main>
