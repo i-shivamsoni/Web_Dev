@@ -1,0 +1,38 @@
+  .div{
+        width: 80%;
+      font-family: sans-serif;
+      padding: 20px;
+      margin-left: auto;
+      margin-right: auto;
+      max-width: 500px;
+}
+
+h1, h2, p{
+    text-align: center;
+}
+
+ .website p{
+  display: inline;
+}   
+
+.name {
+  text-align: left;
+  width: 75%;
+}
+
+.sno {
+  text-align: right;
+  width: 25%;
+}
+
+a:visited {
+  color: black;
+}
+
+a:hover {
+  color: blue;
+}
+
+a:active {
+  color: blue;
+}
