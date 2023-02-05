@@ -1,0 +1,41 @@
+  .content{
+        width: 80%;
+      font-family: sans-serif;
+      padding: 20px;
+      margin-left: auto;
+      margin-right: auto;
+      max-width: 500px;
+}
+
+h1, h2, p{
+    text-align: center;
+}
+
+ .website p{
+  display: inline-block;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-size: 18px;
+}   
+
+.name {
+  text-align: right;
+  width: 75%;
+}
+
+.sno {
+  text-align: left;
+  width: 25%;
+}
+
+a:visited {
+  color: black;
+}
+
+a:hover {
+  color: blue;
+}
+
+a:active {
+  color: blue;
+}
