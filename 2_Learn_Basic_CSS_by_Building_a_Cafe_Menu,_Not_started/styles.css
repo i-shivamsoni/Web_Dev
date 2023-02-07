@@ -3,7 +3,7 @@ body {
   font-family: sans-serif;
   padding: 20px;
 }
-
+/* we can specify the particular element tag to target the entire content with that tag / element */
 h1 {
   font-size: 40px;
   margin-top: 0;
@@ -17,11 +17,11 @@ h2 {
 .established {
   font-style: italic;
 }
-
+/* we can create a class using .class  */
 h1, h2, p {
   text-align: center;
 }
-
+/* while targeting multiple tags we need to use commans  */
 .menu {
   width: 80%;
   background-color: burlywood;
@@ -58,6 +58,7 @@ h1, h2 {
   margin-bottom: 5px;
   font-size: 18px;
 }
+/* if you want to target a particular element inside a class you need not to use comma's eg "".class element"  */
 
 .flavor, .dessert {
   text-align: left;
