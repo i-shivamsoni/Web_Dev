@@ -51,6 +51,7 @@ hr {
 h1, h2 {
   font-family: Impact, serif;
 }
+/* example of fallback value if the first vaule is not available then the second value will be applied*/
 
 .item p {
   display: inline-block;
